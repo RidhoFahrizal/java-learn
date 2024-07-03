@@ -9,6 +9,8 @@ class Person {
         this.age = age;
     }
 
+    
+
     // Method atau fungsi
     public void sayHello() {
         System.out.println("Hello, my name is " + name);
