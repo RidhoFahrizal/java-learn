@@ -9,10 +9,18 @@ class Person {
         this.age = age;
     }
 
-    
-
     // Method atau fungsi
+    
+    //Constructor Overloading 
+    //Harus Membuat parameter nya berbeda , nama constructornya sama tidak masalah
+    public Person(String name) {
+        this.name = name;
+    }
+    
+    public Person() {
+    }
     public void sayHello() {
         System.out.println("Hello, my name is " + name);
     }
+    
 }

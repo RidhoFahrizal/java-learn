@@ -9,5 +9,11 @@ public class PersonApp {
 
         // Memanggil method dari objek person1
         person1.sayHello();
+    
+
+        var person2 = new Person("ridho");
+        person2.sayHello();
     }
+
+
 }
