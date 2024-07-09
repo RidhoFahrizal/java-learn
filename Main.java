@@ -89,7 +89,7 @@ class NamaLengkap{
 class JavaScope{
     static void Scope(){
         // variable a tidak dapat di akses (tidak dikenal diatas sini)    
-        int a=3;
+        int a =3;
             System.out.println("a");
     }
 }
