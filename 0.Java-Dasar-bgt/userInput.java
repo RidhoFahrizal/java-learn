@@ -29,6 +29,5 @@ public class userInput {
             System.out.println("Let's dating " + name);
         }
     }    
-        
-
 }
+
